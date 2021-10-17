@@ -1,0 +1,206 @@
+{
+    "languages" : [
+        {
+            "language" : "css",
+            "questions" : [
+                {
+                    "numb" : 1,
+                    "question" : "Which of the following property specifies whether an element is an accelerator indicator or not.",
+                    "answer" : "accelerator",
+                    "options" : [
+                        "move",
+                        "@keyframes",
+                        "accelerator",
+                        "none of the mentioned"
+                    ]
+                },
+                {
+                    "numb" : 2,
+                    "question" : "Which of the following property is used to define the animations that should be run?",
+                    "answer" : "animation-name",
+                    "options" : [
+                        "animation-delay",
+                        "animation-iteration-count",
+                        "animation-duration",
+                        "animation-name"
+                    ]
+                },
+                {
+                    "numb" : 3,
+                    "question" : "Which of the following property is used to define the number of times an animation should play?",
+                    "answer" : "animation-iteration-count",
+                    "options" : [
+                        "animation-direction",
+                        "animation-iteration-count",
+                        "animation",
+                        "animation-timing-function"
+                    ]
+                },
+                {
+                    "numb" : 4,
+                    "question" : "YWhich of the following property is used to indicate whether the backside of an element is visible if the element is rotated to display the back?",
+                    "answer" : "backface-visibility",
+                    "options" : [
+                        "background-clip",
+                        "backface-visibility",
+                        "behavior",
+                        "background-origin"
+                    ]
+                },
+                {
+                    "numb" : 5,
+                    "question" : "Which of the following property defines a relationship between bound elements(s) and some code or content?",
+                    "answer" : "binding",
+                    "options" : [
+                        "behavior",
+                        "anim",
+                        "binding",
+                        "none of the mentioneds"
+                    ]
+                }
+            ]
+        },
+        {
+            "language" : "nodejs",
+            "questions" : [
+                {
+                    "numb" : 1,
+                    "question" : "Which of the following is true about RESTful web services?",
+                    "answer" : "Both of the above",
+                    "options" : [
+                        "Webservices based on REST Architecture are known as RESTful web services",
+                        " Webservices uses HTTP methods to implement the concept of REST architecture",
+                        "Both of the above",
+                        "none of the mentioned"
+                    ]
+                },
+                {
+                    "numb" : 2,
+                    "question" : "The Node.js modules can be exposed using",
+                    "answer" : "module.exports",
+                    "options" : [
+                        "module.expose",
+                        "module",
+                        "module.exports",
+                        "All of the above"
+                    ]
+                },
+                {
+                    "numb" : 3,
+                    "question" : "In Nodejs how node based web servers differ from traditional web servers?",
+                    "answer" : "Node based server uses a single threaded model and can serve much larger number of requests compared to any traditional server like Apache HTTP Server.",
+                    "options" : [
+                        "Node based server uses a single threaded model and can serve much larger number of requests compared to any traditional server like Apache HTTP Server.",
+                        "Node based server process request much faster than traditional server.",
+                        "There is no much difference between the two.",
+                        "All of the above"
+                    ]
+                },
+                {
+                    "numb" : 4,
+                    "question" : "Which statement executes the code of sample.js file?",
+                    "answer" : "node sample.js",
+                    "options" : [
+                        "nodejs sample.js",
+                        "node sample.js",
+                        "sample.js",
+                        "None of the above"
+                    ]
+                },
+                {
+                    "numb" : 5,
+                    "question" : "What are the key features of Node.js?",
+                    "answer" : "All of the above",
+                    "options" : [
+                        "Real time Data intensive",
+                        "Highly scalable servers for Web Applications",
+                        " Builds fast and scalable network Applications",
+                        "All of the above"
+                    ]
+                },
+                {
+                    "numb" : 6,
+                    "question" : "Child processes always have three streams child.stdin, child.stdout, and child.stderr which may be shared with the stdio streams of the parent process.",
+                    "answer" : "false",
+                    "options" : [
+                        "false",
+                        "true",
+                        "All the above",
+                        "None"
+                    ]
+                }                
+            ]
+        },
+        {
+            "language" : "java",
+            "questions" : [
+                {
+                    "numb" : 1,
+                    "question" : "Which of these class have only one field ‘TYPE’?",
+                    "answer" : "Void",
+                    "options" : [
+                        "Void",
+                        "Process",
+                        "System",
+                        "Runtime"
+                    ]
+                },
+                {
+                    "numb" : 2,
+                    "question" : "Which of the following method of Process class can terminate a process?",
+                    "answer" : "void destroy()",
+                    "options" : [
+                        "void kill()",
+                        "void destroy()",
+                        "void terminate()",
+                        "void exit()"
+                    ]
+                },
+                {
+                    "numb" : 3,
+                    "question" : "Standard output variable ‘out’ is defined in which class?",
+                    "answer" : "System",
+                    "options" : [
+                        "Void",
+                        "Process",
+                        "Runtime",
+                        "System"
+                    ]
+                },
+                {
+                    "numb" : 4,
+                    "question" : "Which of the following is method of System class is used to find how long a program takes to execute?",
+                    "answer" : "currentTimeMillis()",
+                    "options" : [
+                        "currenttime()",
+                        "currentTime()",
+                        "currentTimeMillis()",
+                        "currenttimeMillis()"
+                    ]
+                },
+                {
+                    "numb" : 5,
+                    "question" : "Which of this method of class String is used to extract a substring from a String object?",
+                    "answer" : " substring()",
+                    "options" : [
+                        " substring()",
+                        "Substring()",
+                        "SubString()",
+                        "All of the above"
+                    ]
+                },
+                {
+                    "numb" : 6,
+                    "question" : "Which of the following statement is correct?",
+                    "answer" : "replace() method replaces all occurrences of one character in invoking string with another character",
+                    "options" : [
+                        "replace() method replaces all occurrences of one character in invoking string with another character",
+                        "replace() method replaces only first occurrences of a character in invoking string with another character",
+                        "replace() method replaces all the characters in invoking string with another character",
+                        "replace() method replaces last occurrence of a character in invoking string with another character"
+                    ]
+                }                
+            ]
+        }
+    ]
+}
