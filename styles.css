@@ -7,16 +7,25 @@
   font-family: "Poppins", sans-serif;
 }
 
-::selection {
-  color: #fff;
-  background: #007bff;
+body {
+  width: 100%;
+  height: 100vh;
+}
+.navbar {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  transition: 0.3s;
 }
 
-.navbar {
-  background-color: #026cdd;
+.hide {
+  visibility: hidden;
 }
 
 .navbar a {
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.navbar a:hover {
   color: #ffffff;
 }
 
@@ -41,20 +50,14 @@
   line-height: 60px;
 }
 
-.container .row .card:nth-child(1) {
-  background-color: darkorange;
-}
-.container .row .card:nth-child(2) {
-  background-color: rgb(0, 60, 255);
-}
-.container .row .card:nth-child(3) {
-  background-color: rgb(255, 0, 0);
-}
-
 .fab {
   margin: 35px 0;
   align-self: center;
   color: #ffffff;
+}
+
+.fab:hover {
+  animation: flipper 1s;
 }
 
 .card {
@@ -62,7 +65,7 @@
   padding: 4px;
   border-radius: 12px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: #007bff;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 .card .card-body {
@@ -125,7 +128,7 @@
 
 .info_box .info-list .info span {
   font-weight: 600;
-  color: #007bff;
+  color: #764ba2;
 }
 .info_box .buttons {
   height: 60px;
@@ -143,10 +146,7 @@
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
-  border: none;
-  outline: none;
   border-radius: 5px;
-  border: 1px solid #007bff;
   transition: all 0.3s ease;
 }
 
@@ -179,9 +179,9 @@
 }
 
 .quiz_box header .timer {
-  color: #004085;
-  background: #cce5ff;
-  border: 1px solid #b8daff;
+  color: #682fa1;
+  background: #f4f2f7;
+  border: 1px solid #764ba2;
   height: 45px;
   padding: 0 8px;
   border-radius: 5px;
@@ -216,7 +216,7 @@
   bottom: 0px;
   left: 0px;
   height: 3px;
-  background: #007bff;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 section {
@@ -235,8 +235,8 @@ section .option_list {
 }
 
 section .option_list .option {
-  background: aliceblue;
-  border: 1px solid #84c5fe;
+  background: #f4f2f7;
+  border: 1px solid #764ba2;
   border-radius: 5px;
   padding: 8px 15px;
   font-size: 17px;
@@ -253,9 +253,8 @@ section .option_list .option:last-child {
 }
 
 section .option_list .option:hover {
-  color: #004085;
-  background: #cce5ff;
-  border: 1px solid #b8daff;
+  background: #e7dbf3;
+  border: 1px solid #764ba2;
 }
 
 section .option_list .option.correct {
@@ -330,17 +329,16 @@ footer button {
   outline: none;
   color: #fff;
   border-radius: 5px;
-  background: #007bff;
-  border: 1px solid #007bff;
   line-height: 10px;
   opacity: 0;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   pointer-events: none;
   transform: scale(0.95);
   transition: all 0.3s ease;
 }
 
 footer button:hover {
-  background: #0263ca;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 footer button.show {
@@ -366,8 +364,11 @@ footer button.show {
 
 .result_box .icon {
   font-size: 100px;
-  color: #007bff;
-  margin-bottom: 10px;
+  color: #667eea;
+  display: block;
+  background: -webkit-linear-gradient(#667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .result_box .complete_text {
@@ -399,28 +400,54 @@ footer button.show {
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
-  border: none;
-  outline: none;
   border-radius: 5px;
-  border: 1px solid #007bff;
   transition: all 0.3s ease;
 }
 
-.buttons button.restart {
+.btn {
   color: #fff;
-  background: #007bff;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-weight: 500;
 }
 
-.buttons button.restart:hover {
-  background: #0263ca;
+.btn:hover {
+  height: 38px;
+  color: #764ba2;
+  background-color: #fff;
+  background-image: none;
+  border: 2px solid #764ba2;
 }
 
-.buttons button.quit {
-  color: #007bff;
-  background: #fff;
+.animated-background {
+  background-size: 400%, 400%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  animation: change 10s ease-in infinite;
+  position: relative;
 }
 
-.buttons button.quit:hover {
-  color: #fff;
-  background: #007bff;
+@keyframes flipper {
+  0% {
+    transform: rotateY(90deg);
+  }
+  25% {
+    transform: rotateY(180deg);
+  }
+  50% {
+    transform: rotateY(270deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
