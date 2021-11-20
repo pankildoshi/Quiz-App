@@ -61,6 +61,66 @@
             ]
         },
         {
+            "language" : "python",
+            "questions" : [
+                {
+                    "numb" : 1,
+                    "question" : "Who developed Python Programming Language?",
+                    "answer" : "Guido van Rossum",
+                    "options" : [
+                        "Wick van Rossum",
+                        "Rasmus Lerdorf",
+                        "Guido van Rossum",
+                        "Niene Stom"
+                    ]
+                },
+                {
+                    "numb" : 2,
+                    "question" : "Which type of Programming does Python support?",
+                    "answer" : "all of the mentioned",
+                    "options" : [
+                        "object-oriented programming",
+                        "structured programming",
+                        "functional programming",
+                        "all of the mentioned"
+                    ]
+                },
+                {
+                    "numb" : 3,
+                    "question" : "Is Python case sensitive when dealing with identifiers?",
+                    "answer" : "no",
+                    "options" : [
+                        "no",
+                        "yes",
+                        "machine dependent",
+                        "none of the mentioned"
+                    ]
+                },
+                {
+                    "numb" : 4,
+                    "question" : "Which of the following is the correct extension of the Python file?",
+                    "answer" : "backface-visibility",
+                    "options" : [
+                        ".python",
+                        ".pl",
+                        ".py",
+                        ".p"
+                    ]
+                },
+                {
+                    "numb" : 5,
+                    "question" : "Is Python code compiled or interpreted?",
+                    "answer" : "Python code is neither compiled nor interpreted",
+                    "options" : [
+                        "Python code is both compiled and interpreted",
+                        "Python code is neither compiled nor interpreted",
+                        "Python code is only compiled",
+                        "Python code is only interpreted"
+                    ]
+                }
+            ]  
+        },
+        {
             "language" : "nodejs",
             "questions" : [
                 {
@@ -201,6 +261,145 @@
                     ]
                 }                
             ]
+        },
+        {
+            "language" : "js",
+            "questions" : [
+                {
+                    "numb" : 1,
+                    "question" : "Which of the following is true?",
+                    "answer" : "If onKeyDown returns false, the key-press event is cancelled.",
+                    "options" : [
+                        "If onKeyDown returns false, the key-press event is cancelled.",
+                        "If onKeyPress returns false, the key-down event is cancelled.",
+                        "If onKeyDown returns false, the key-up event is cancelled.",
+                        "If onKeyDown returns false, the key-up event is cancelled."
+                    ]
+                },
+                {
+                    "numb" : 2,
+                    "question" : "Which best explains getSelection()?",
+                    "answer" : "Returns the value of cursor-selected text",
+                    "options" : [
+                        "Returns the VALUE of a selected OPTION.",
+                        "Returns document.URL of the window in focus.",
+                        "Returns the value of cursor-selected text",
+                        "Returns the VALUE of a checked radio input."
+                    ]
+                },
+                {
+                    "numb" : 3,
+                    "question" : "Choose the client-side JavaScript object:",
+                    "answer" : "FileUpLoad",
+                    "options" : [
+                        "Database",
+                        "Cursor",
+                        "Client",
+                        "FileUpLoad"
+                    ]
+                },
+                {
+                    "numb" : 4,
+                    "question" : "Javascript is a ________ typed language.",
+                    "answer" : "loosly",
+                    "options" : [
+                        "tightly",
+                        "loosly"
+                    ]
+                },
+                {
+                    "numb" : 5,
+                    "question" : "Javascript is a ________ typed language.",
+                    "answer" : " blur()",
+                    "options" : [
+                        "blur()",
+                        "focus()",
+                        "None"
+                    ]
+                },
+                {
+                    "numb" : 6,
+                    "question" : "What property would you use to redirect a visitor to another page?",
+                    "answer" : "window.location.href",
+                    "options" : [
+                        "document.URL",
+                        "window.location.href",
+                        ".document.location.href",
+                        "link.href"
+                    ]
+                }                
+            ]
+        },
+        {
+            "language" : "html5",
+            "questions" : [
+                {
+                    "numb" : 1,
+                    "question" : " __________Function displays the Latitude and Longitude in geoLocation in HTML5",
+                    "answer" : "showPosition()",
+                    "options" : [
+                        "showLocation()",
+                        "showPosition()",
+                        "both a and b",
+                        "showStatus()"
+                    ]
+                },
+                {
+                    "numb" : 2,
+                    "question" : "Which of the following browser supports HTML5 in its latest version?",
+                    "answer" : "Both of them",
+                    "options" : [
+                        "Apple Safari",
+                        "Google Chrome",
+                        "Both of them",
+                        "None of the above"
+                    ]
+                },
+                {
+                    "numb" : 3,
+                    "question" : "Which of the following tag represents a piece of content that is only slightly related to the rest of the page in HTML5?",
+                    "answer" : "aside",
+                    "options" : [
+                        "section",
+                        "article",
+                        "aside",
+                        "header"
+                    ]
+                },
+                {
+                    "numb" : 4,
+                    "question" : "Which of the following input control accepts only numerical value in Web Form 2.0?",
+                    "answer" : "number",
+                    "options" : [
+                        "week",
+                        "time",
+                        "number",
+                        "range"
+                    ]
+                },
+                {
+                    "numb" : 5,
+                    "question" : "Which of the following tag provides a hint to the user of what can be entered in the field in HTML5?",
+                    "answer" : " placeholder()",
+                    "options" : [
+                        "output",
+                        "placeholder",
+                        "autofocus",
+                        "required"
+                    ]
+                },
+                {
+                    "numb" : 6,
+                    "question" : "Which of the following is correct about geolocation api in HTML5?",
+                    "answer" : "All of the above",
+                    "options" : [
+                        "HTML5 Geolocation API lets you share your location with your favorite web sites.",
+                        " A Javascript can capture your latitude and longitude and can be sent to backend web server and do fancy location-aware things like finding local businesses or showing your location on a map.",
+                        "Today most of the browsers and mobile devices support Geolocation API.",
+                        "All of the above"
+                    ]
+                }                
+            ]  
         }
     ]
 }
