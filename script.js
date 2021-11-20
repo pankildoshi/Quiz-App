@@ -16,48 +16,56 @@ const option_list = document.querySelector(".option_list");
 const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
+const navbar = document.querySelector(".navbar");
+const quiz_bg = document.querySelector("body");
 let language;
 
 // if startQuiz button clicked
 start_java.addEventListener('click',  () => {
     info_box.classList.add("activeInfo"); //show info box
     container.classList.add("hide-container");
-    document.querySelector("body").style.backgroundColor = "#007bff";
+    navbar.classList.add("hide");
+    quiz_bg.classList.add("animated-background");
     language = 'java';
     fetchData();
 })
 start_python.addEventListener('click',  () => {
     info_box.classList.add("activeInfo"); //show info box
     container.classList.add("hide-container");
-    document.querySelector("body").style.backgroundColor = "#007bff";
+    navbar.classList.add("hide");
+    quiz_bg.classList.add("animated-background");
     language = 'python';
     fetchData();
 })
 start_css.addEventListener('click',  () => {
     info_box.classList.add("activeInfo"); //show info box
     container.classList.add("hide-container");
-    document.querySelector("body").style.backgroundColor = "#007bff";
+    navbar.classList.add("hide");
+    quiz_bg.classList.add("animated-background");
     language = 'css';
     fetchData();
 })
 start_js.addEventListener('click',  () => {
     info_box.classList.add("activeInfo"); //show info box
     container.classList.add("hide-container");
-    document.querySelector("body").style.backgroundColor = "#007bff";
+    navbar.classList.add("hide");
+    quiz_bg.classList.add("animated-background");
     language = 'js';
     fetchData();
 })
 start_html5.addEventListener('click',  () => {
     info_box.classList.add("activeInfo"); //show info box
     container.classList.add("hide-container");
-    document.querySelector("body").style.backgroundColor = "#007bff";
+    navbar.classList.add("hide");
+    quiz_bg.classList.add("animated-background");
     language = 'html5';
     fetchData();
 })
 start_nodejs.addEventListener('click',  () => {
     info_box.classList.add("activeInfo"); //show info box
     container.classList.add("hide-container");
-    document.querySelector("body").style.backgroundColor = "#007bff";
+    navbar.classList.add("hide");
+    quiz_bg.classList.add("animated-background");
     language = 'nodejs';
     fetchData();
 })
@@ -66,7 +74,8 @@ start_nodejs.addEventListener('click',  () => {
 exit_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo"); //hide info box
     container.classList.remove("hide-container");
-    document.querySelector("body").style.backgroundColor = "#fff";
+    navbar.classList.remove("hide");
+    quiz_bg.classList.remove("animated-background");
 }
 
 // if continueQuiz button clicked
@@ -139,7 +148,7 @@ next_btn.onclick = ()=>{
 }
 
 // language selectors
-let langs = ['css', 'nodejs', 'java'];
+let langs = ['css', 'python', 'nodejs', 'java', 'js', 'html5'];
 let questions;
 
 // fetching data from json
